@@ -1,12 +1,17 @@
 body{
     font-family: 'Times New Roman', Times, serif;
+    background-color: #9DF9FF;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-papel-tapiz-colorido-borroso-artistico_58702-8200.jpg?size=626&ext=jpg&ga=GA1.1.539837299.1712188800&semt=ais);
+    background-size: cover;
 }
 nav{
     background-color: black;
+    
 }
 
 #bus,
 #ca,
+#of,
 #cp {
     color: white;
 }
