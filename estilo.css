@@ -1,5 +1,13 @@
 body{
-    background-color: lightblue;
     font-family: 'Times New Roman', Times, serif;
-
 }
+nav{
+    background-color: black;
+}
+
+#bus,
+#ca,
+#cp {
+    color: white;
+}
+
