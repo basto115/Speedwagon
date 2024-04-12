@@ -13,58 +13,9 @@
   <div class="nav-bar message-top" style="color: white; background-color: black;">
     <div class="container text-center"> 幼虫はどうした </div>
     <center>
-      <h1>Bienvenido a Speedwagon :D</h1>
+      <h1>Speedwagon</h1>
     </center>
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      Login
-    </button>
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title mx-auto" style="color:black ">Inicio de sesión</h5>
-            <button class="btn-close" data-BS-dismiss="modal">
-            </button>
-          </div>
-          <div class="modal-body text-center p-3" style="color:black ">
-            <form action="action_page.php" method="post">
-
-              <div class="container">
-                <div class="row">
-
-                  <div class="col">
-
-                    <label for="uname"><b>Usuario</b></label>
-                    <input type="text" placeholder="Ingrese su usuario" name="uname" required>
-                    
-                  </div>
-                </div>
-                <label for="psw"><b>Contraseña</b></label>
-                <input type="password" placeholder="Ingrese su contraseña" name="psw" required>
-                
-                <button type="submit">Loguearse</button>
-                <label>
-                  <input type="checkbox" checked="checked" name="remember"> Recuerdame
-                </label>
-              </div>
-
-              <div class="container  text-center" style="background-color:#ffffff">
-                <span class="psw" style="color: black;"><a
-                    href="https://www.youtube.com/watch?v=lA3GKtIiq4A&ab_channel=Esternocleidomastoideo">¿Olvido su
-                    contraseña?</a></span>
-              </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-
-          </div>
-        </div>
-      </div>
-    </div>
     <!--NavBar-->
     <nav class="navbar navbar-expand-lg bg-body-dark">
       <div class="container-fluid">
@@ -126,6 +77,67 @@
               </ul>
             </li>
 
+          </div>
+          <div class="modal-footer">
+        <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Login
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title mx-auto" style="color:black ">Inicio de sesión</h5>
+            <button class="btn-close" data-BS-dismiss="modal">
+            </button>
+          </div>
+          <div class="modal-body text-center p-3" style="color:black ">
+            <form action="action_page.php" method="post">
+
+              <div class="container">
+                <div class="row">
+
+                  <div class="col">
+
+                    <label for="uname"><b>Usuario</b></label>
+                    <input type="text" placeholder="Ingrese su usuario" name="uname" required>
+                    
+                  </div>
+
+                  <div class="col">
+
+                    <label for="psw"><b>Contraseña</b></label>
+                    <input type="password" placeholder="Ingrese su contraseña" name="psw" required>
+                    
+                  </div>
+
+                  <div class="col">
+
+                <button type="submit">Login</button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Recuerdame
+                </label>
+              </div>
+                    
+                  </div>
+
+
+                </div>
+               
+
+              <div class="container  text-center" style="background-color:#ffffff">
+                <span class="psw" style="color: black;"><a style="text-decoration: none; color: black;"
+                    href="https://www.youtube.com/watch?v=lA3GKtIiq4A&ab_channel=Esternocleidomastoideo">¿Olvido su
+                    contraseña?</a></span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
             <li class="nav-item">
               <a class="nav-link disabled" aria-disabled="true"></a>
