@@ -21,7 +21,6 @@ nav{
 
 #carouselExampleCaptions{
     margin-top: 5%;
-
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -34,5 +33,9 @@ nav{
     margin-right: 10%;
 }
 
+#cardRei{
+    padding: 50px;
+    margin-top: 20%;
+}
 
 
