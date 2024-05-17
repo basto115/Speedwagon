@@ -11,7 +11,7 @@
         console.log(login)
 
         $("#btnvali").click(function () {
-          $("#btnlim").toggle(500);
+          
           login.username = user.val();
           login.password = user.val();
           
