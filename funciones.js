@@ -19,6 +19,7 @@
 
         })
         
+        
         contra.keydown(function(){
           if (String(contra.val()).length <= 6){
             contra.css("border", "3px solid red");
@@ -31,4 +32,4 @@
 
     })
 
-
+  
