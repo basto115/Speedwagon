@@ -20,7 +20,7 @@ $(document).ready(function (){
       registro.apellido = ape.val();
       registro.usuario = user2.val();
       registro.correo = correo.val();
-      registro.passw = passw.val();
+      registro.contraseña = passw.val();
 
 
       console.log(registro);
