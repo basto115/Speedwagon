@@ -6,6 +6,8 @@
     <title>Speedwagon oferton</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="estilo.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="funRegi.js"></script>
 </head>
 <body>
   <div class="nav-bar message-top" style="color: white; background-color: black;">
@@ -103,48 +105,50 @@
 </div>
         <!--Fin NavBar-->
 
-      <div class="container-fluidz"></div>
-      <center>
+      <div class="container-fluid">
+        <form>
+          <div class="form-row">
+            <div class="form-floating w-50 mx-auto mb-3">
+              <input type="text" class="form-control" id="nom" placeholder="Ingrese su nombre" required>
+              <label for="validationDefault01">Nombre: </label>
+            </div>
+            
+            <div class="form-floating w-50 mx-auto mb-3">
+              <input type="text" class="form-control" id="ape" placeholder="Ingrese su apellido" required>
+              <label for="validationDefault02">Apellido: </label>
+            </div>
 
-          <form>
             <div class="form-row">
               <div class="form-floating w-50 mx-auto mb-3">
-                <label for="validationDefault01">Nombre</label>
-                <input type="text" class="form-control" id="validationDefault01" placeholder="Ingrese su nombre" required>
+                <input type="email" class="form-control" id="correo" placeholder="Email">
+                <label for="inputEmail4">Email: </label>
               </div>
-              
+
               <div class="form-floating w-50 mx-auto mb-3">
-                <label for="validationDefault02">Apellido</label>
-                <input type="text" class="form-control" id="validationDefault02" placeholder="Ingrese su apellido" required>
+                <input type="text" class="form-control" id="user2" placeholder="Ingrese su usuario">
+                <label for="user2">Usuario: </label>
+                <div style="color: rgb(212, 7, 7);">
+                  <h6>El usuario debe tener minimo 6 de largo</h6>
+                </div>
               </div>
 
-              <div class="form-row">
-                <div class="form-floating w-50 mx-auto mb-3">
-                  <label for="inputEmail4">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              <div class="form-floating w-50 mx-auto mb-3">
+                <input type="password" class="form-control" id="passw" placeholder="Ingrese su contraseña">
+                <label for="passw">Constraseña: </label>
+                <div style="color: rgb(212, 7, 7);">
+                  <h6>La contraseña debe tener minimo 8 de largo</h6>
                 </div>
-
-                <div class="form-floating w-50 mx-auto mb-3">
-                  <label for="validationDefault01">Usuario</label>
-                  <input type="text" class="form-control" id="validationDefault01" placeholder="Ingrese su usuario" required>
-                </div>
-
-                <div class="form-floating w-50 mx-auto mb-3">
-                    <label for="inputPassword6">Contraseña</label>
-                    <input type="password" id="inputPassword6" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
-                    <small id="passwordHelpInline" class="text-muted">
-                    </small>
-                </div>
-            
-                <div class="form-group">
-                </div>
-                <button class="btn btn-primary" type="submit">Registrarse</button>
-                <input type="reset" id="btnlim" value="limpiar" class="btn btn-outline-warning">
-              </form>
-          </div>
-        </center>
-
-
+              </div>
+          
+              <div class="form-group">
+              </div>
+              <center>
+              <button type="button" class="btn btn-outline-primary" id="btnreg">Registrarse</button>
+              <input type="reset" id="btnlim" value="limpiar" class="btn btn-outline-warning">
+            </center>
+            </form>
+        </div>
+      
 
         <!--copy-->
         <footer> <center>
@@ -158,5 +162,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
