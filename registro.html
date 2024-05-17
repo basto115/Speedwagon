@@ -106,7 +106,7 @@
         <!--Fin NavBar-->
 
       <div class="container-fluid">
-        <form>
+        <form class="validate">
           <div class="form-row">
             <div class="form-floating w-50 mx-auto mb-3">
               <input type="text" class="form-control" id="nom" placeholder="Ingrese su nombre" required>
@@ -120,13 +120,13 @@
 
             <div class="form-row">
               <div class="form-floating w-50 mx-auto mb-3">
-                <input type="email" class="form-control" id="correo" placeholder="Email">
+                <input type="email" class="form-control" id="correo" placeholder="Email" required>
                 <label for="inputEmail4">Email: </label>
               </div>
 
 
               <div class="form-floating w-50 mx-auto mb-3">
-                <input type="text" class="form-control" id="user2" placeholder="Ingrese su usuario">
+                <input type="text" class="form-control" id="user2" placeholder="Ingrese su usuario" required>
                 <label for="user2">Usuario: </label>
                 <div style="color: rgb(212, 7, 7);">
                   <h6>El usuario debe tener minimo 6 de largo</h6>
@@ -134,7 +134,7 @@
               </div>
 
               <div class="form-floating w-50 mx-auto mb-3">
-                <input type="password" class="form-control" id="passw" placeholder="Ingrese su contraseña">
+                <input type="password" class="form-control" id="passw" placeholder="Ingrese su contraseña" required>
                 <label for="passw">Constraseña: </label>
                 <div style="color: rgb(212, 7, 7);">
                   <h6>La contraseña debe tener minimo 8 de largo</h6>
@@ -142,7 +142,7 @@
               </div>
 
               <div class="form-floating w-50 mx-auto mb-3">
-                <input type="password" class="form-control" id="passw2" placeholder="Ingrese su contraseña">
+                <input type="password" class="form-control" id="passw2" placeholder="Ingrese su contraseña" required>
                 <label for="passw2">Confirme su constraseña: </label>
               </div>
           
@@ -151,6 +151,7 @@
               <center>
               <button type="button" class="btn btn-outline-primary" id="btnreg">Registrarse</button>
               <input type="reset" id="btnlim" value="limpiar" class="btn btn-outline-warning">
+              <button>Validar</button>
             </center>
             </form>
         </div>
